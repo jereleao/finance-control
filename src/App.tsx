@@ -9,7 +9,7 @@ function App() {
   //const [forecast, setForecast] = useState('');
 
   useEffect(() => {
-    fetch('https://localhost:7112/WeatherForecast')
+    fetch('https://webappfintech-v1-0.onrender.com/weatherforecast')
       .then(response => response.json())
       .then(res => {
         console.log(res);
