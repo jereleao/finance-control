@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   const [count, setCount] = useState(0);
 
-  const [forecast, setForecast] = useState('');
+  //const [forecast, setForecast] = useState('');
 
   useEffect(() => {
     fetch('https://localhost:7112/WeatherForecast')
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      {JSON.stringify(forecast)}
+      {/* {JSON.stringify(forecast)} */}
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
